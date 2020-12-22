@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Comments!"
-date:   2020-12-21 0:0:0 +0100
+date:   2020-12-22 16:58:0 +0100
 categories: update
 ---
 Hey Everyone There Are Comments Now! Thanks To [Disqus][disqus], They Are On This Post Too! So I Would Be Happy For Any Feedback On My Posts And Im Looking For Moderator/s If You Are Interested I Will Do A Post Soon And There Will Be More Info Anyway Thanks For Reading And Have Nice Day 😊.
