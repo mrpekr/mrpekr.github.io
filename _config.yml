@@ -24,7 +24,7 @@ tagline: My Blog
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome To My Personal Blog. I Post Here Some Updates About My Works And Some Stuff I Think Is Interesting
 #baseurl: "new" # the subpath of your site, e.g. /blog
-url: "mrpekr.github.io/new" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pekring
 github_username:  mrpekr
 rss: RSS
@@ -34,7 +34,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-  - jekyll-sitemap
 copyright: >    
   © <!--copyyears--> <!--author-->; All rights reserved.
 
