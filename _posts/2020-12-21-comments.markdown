@@ -1,14 +1,11 @@
 ---
 layout: post
-title:  "Welcome to my new site!"
-date:   2020-12-21 14:56:26 +0100
+title:  "Comments!"
+date:   2020-12-21 0:0:0 +0100
 categories: update
 ---
-Hello Welcome To My New Site. I Already Have One But This Is More Simple To The Last One. I Will Move This Site Wich Is [mrpekr.github.io/new][mrpekr/new] Will Be Changed To [mrpekr.github.io][mrpekr] And The Old One Will Be Deleted. I Will Not Repost Any Old Posts But I WIll Archive Them On WayBack Machine And You Will Be Able To Find Them There.
-
-Edit: i Sad That I Will Archive Them? I Lied Sorry My Bad
+Hey Everyone There Are Comments Now! Thanks To [Disqus][disqus], They Are On This Post Too! So I Would Be Happy For Any Feedback On My Posts And Im Looking For Moderator/s If You Are Interested I Will Do A Post Soon And There Will Be More Info Anyway Thanks For Reading And Have Nice Day 😊.
 
 - Mr. Pekr
 
-[mrpekr/new]: https://mrpekr.github.io/new
-[mrpekr]: https://mrpekr.github.io
+[disqus]: https://disqus.com
