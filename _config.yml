@@ -25,7 +25,7 @@ future: false
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome To My Personal Blog. I Post Here Some Updates About My Works And Some Stuff I Think Is Interesting
 site.url: "mrpekr.github.io" # the subpath of your site, e.g. /blog
-url: "https://mrpekr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "mrpekr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pekring
 github_username:  mrpekr
 rss: RSS
