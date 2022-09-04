@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+<html>
+<head>
+<link rel="stylesheet" href="Default.css">
+<script src="table.js"></script>
+<script src="menu.js"></script>
+<script src="helper.js"></script>
+</head>
+<body onload="load()">
+<div class="header">
+<button type="button" id="HELPBUTTON" onClick="openHelpMenu()">Help</button>
+<!-- Input Bar -->
+<form class="center" id="input" onsubmit="addData()">
+<input type="text" id="URL" autocomplete="off" placeholder="Enter image URL or text here"/>
+</form>
+<!--------------->
+<!-- Edit Button -->
+<button type="button" id="EDITBUTTON" onClick="openEditMenu()">Edit</button>
+<!----------------->
+<div id="EDITMODE">
+<h1 class="headerInfo">Click objects to delete</h1>
+<button type="button" id="BACKBUTTON" class="menuButton" onClick="defaultMode()">Go Back</button><br>
+</div>
+</div>
+<!-- Images are listed here -->
+<div class="flex" id="ImageList">
+</div>
+<div id="GRAYBACKGROUND" onclick="closeMenu()"></div>
+<div id="EDITMENU" class="popUpMenu">
+<h1>Settings</h1>
+<button type="button" class="menuButton" onclick="openImportMenu()"">Import</button><br>
+<button type="button" class="menuButton" onclick="exportData()">Export</button><br>
+<button type="button" class="menuButton" style="margin-top: 20px;" onclick="editSetUp()">Delete</button><br>
+<button type="button" class="menuButton" style="margin-top: 40px; background-color: red;" onclick="dangerSetup()">DANGER SETTINGS</button>
+</div>
+<div id="IMPORTMENU" class="popUpMenu">
+<h1>Import</h1>
+<input type="file" id="importinput" class="file" accept=".json" onchange="loadFile(this.files[0])">
+</div>
+<div id="HELPMENU" class="popUpMenu">
+<h1>Help</h1>
+<h1>What is image clipboard?</h1>
+<p>Image clipboard is a way to save discord nitro emojis, images and text</p><br>
+<h2>How to use:</h2>
+<p>To save a discord nitro emoji right click a discord nitro emoji and press copy link,
+copy this link into the input bar and it will be corrected in size and saved to local storage</p>
+<img src="./Resources/HowTo.png" alt="Right click discord nitro emoji, and press copy link">
+<p>Click on any image in the image list to copy it to clipboard, if you paste it into discord it will send it as a image if you have embed perms</p>
+<img src="./Resources/Example.png" alt="click on a image to copy it">
+</div>
+<div id="DANGERMENU" class="popUpMenu">
+<h1 style="background-color: red;">DANGER</h1>
+<button type="button" class="menuButton" onclick="deleteDuplicates()"">Delete Duplicates</button><br>
+<button type="button" class="menuButton" style="margin-top: 40px; background-color: red;" onclick="deleteAllPopUp()">Delete All</button><br>
+<button type="button" class="menuButton" style="margin-top: 40px; background-color: red;" onclick="resetDataPopUp()">Reset</button>
+</div>
+<div id="deleteAllPopUp" class="popUp">
+<h1>Are you sure you want to delete all data?<br>THIS ACTION IS IRREVERSIBLE</h1>
+<button type="button" class="menuButton" style="background-color: red;" onclick="deleteAll()">Yes</button>
+<button type="button" class="menuButton" onclick="closeMenu()">No</button>
+</div>
+<div id="resetDataPopUp" class="popUp">
+<h1>Are you sure you want to reset data to default?<br>THIS ACTION IS IRREVERSIBLE</h1>
+<button type="button" class="menuButton" style="background-color: red;" onclick="resetData()">Yes</button>
+<button type="button" class="menuButton" onclick="closeMenu()">No</button>
+</div>
+</body>
