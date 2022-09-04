@@ -2,8 +2,9 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
   publish_mode: editorial_workflow
-  # This line should *not* be indented
-  media_folder: "assets" # Media files will be stored in the repo under images/uploads
+# This line should *not* be indented
+media_folder: "assets/uploads" # Media files will be stored in the repo under images/uploads
+media_libary: "assets"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
