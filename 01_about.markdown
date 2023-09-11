@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-Hi Im Mr. Pekr/Peter, Im Programer And A Little Bit Of Youtuber. Thanks For Reading My Blog I Post Here About My Projects That I Worked On Or Im Working On And Some Random Stuff That I Think Is Interesting.
+Hi Im Comrade Medic/Chloe, Im Programer little bit of a pixelartist. Thanks For Reading My Blog I Post Here About My Projects That I Worked On Or Im Working On And Some Random Stuff That I Think Is Interesting.
 
 <h4>Links:</h4>
 [Twitter][twitter], [Youtube][youtube], [Github][github]
